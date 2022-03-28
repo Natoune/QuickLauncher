@@ -14,7 +14,7 @@ Lancez Minecraft rapidement dans toutes versions
   
 ## QuickLauncher BASH  
 ### Installation  
-Pour installer QuickLauncher BASH, rendez-vous simplement dans la partie [releases](https://github.com/Natoune/QuickLauncher/releases) et prenez la version QuickLauncher BASH correspondant à votre Système d'exploitation.  
+Pour installer QuickLauncher BASH, rendez-vous simplement sur la page des [releases](https://github.com/Natoune/QuickLauncher/releases) et prenez la version QuickLauncher BASH correspondant à votre Système d'exploitation.  
   
 ### Utilisation  
 Exécutez le programme dans un dossier.  
@@ -33,13 +33,14 @@ Bon jeu ! 🎮
   
 ### Build Source  
 Pour créer un fichier exécutable à partir du code source, vous devez avoir [NodeJS](https://nodejs.org/fr/) installé sur votrey système, ainsi que [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/) ou une autre alternative.  
-Rendez-vous dans le dossier `BASH/` et installez [**pkg**](https://www.npmjs.com/package/pkg) exécutez la commande correspondant au système d'exploitation voulu dans un terminal:  
+Rendez-vous dans le dossier `BASH/` et installez [**pkg**](https://www.npmjs.com/package/pkg).  
+Ensuite, exécutez la commande correspondant au système d'exploitation voulu dans un terminal:  
   
-`$` `pkg index.js -t latest-win-x64`  
+`$ pkg index.js -t latest-win-x64`  
   
-`$` `pkg index.js -t latest-linux-x64`  
+`$ pkg index.js -t latest-linux-x64`  
   
-`$` `pkg index.js -t latest-macos-x64`  
+`$ pkg index.js -t latest-macos-x64`  
   
 
 Pour plus d'informations, orientez-vous vers la [doccumentation de pkg](https://github.com/vercel/pkg)  
