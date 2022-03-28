@@ -13,7 +13,7 @@ request('https://natoune.github.io/MinecraftResources/versions/versions.json', f
 
 process.stdout.write('\x1Bc');
 console.log('\x1b[33m====================================');
-console.log('\x1b[33m===== QUICKLAUNCHER cmd v1.0.0 =====');
+console.log('\x1b[33m===== QUICKLAUNCHER BASH v1.0.0 =====');
 console.log('\x1b[33m====================================\r\n');
 
 function getVersion() {
@@ -26,7 +26,7 @@ function getVersion() {
             console.log('\x1b[31mLa version '+result.Version+' n\'existe pas !');
             sleep.sleep(2);
             process.stdout.write('\x1Bc'); 
-            console.log('\x1b[33m===== QUICKLAUNCHER cmd v1.0.0 =====\r\n');
+            console.log('\x1b[33m===== QUICKLAUNCHER BASH v1.0.0 =====\r\n');
             getVersion();
         } else {
             request('https://natoune.tk/launcher/'+result.Version+'/type', function (error, response, body) {
@@ -74,7 +74,7 @@ function launch(version, type, username) {
     }
 
     process.stdout.write('\x1Bc');
-    console.log('\x1b[33m===== QUICKLAUNCHER cmd v1.0.0 =====\r\n\x1b[0m');
+    console.log('\x1b[33m===== QUICKLAUNCHER BASH v1.0.0 =====\r\n\x1b[0m');
     
     launcher.launch(opts);
     
