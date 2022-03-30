@@ -1,6 +1,8 @@
 # QuickLauncher  
 Lancez Minecraft rapidement dans toutes versions   
   
+Ce launcher est conçue pour fonctionner avec les proxys de collèges/lycées  
+  
 ⚠️ LE LAUNCHER N'ACCEPTE QUE LES VERSIONS CRACK POUR LE MOMENT  
   
 - [QuickLauncher BASH](#quicklauncher-bash)  
